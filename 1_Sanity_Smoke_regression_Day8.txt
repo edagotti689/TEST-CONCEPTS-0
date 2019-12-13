@@ -1,0 +1,59 @@
+							KOSMIK TECHNOLOGIES PVT.LTD
+
+#SmokeTesting:
+* If application launches at intial stage, it will have major issues.
+* Check the critical functionalites in the application.
+
+#SanityTesting:
+* After many releases of an application, if any new change happened,will focus on the new change.
+* It can have many regression happens.
+
+#Regression: 
+* If any New code (new req, defect fix) added to the application it can side effect
+  the componets assciated with this change.
+* To check whether the sideeffected components are workig fine or not will do regression.
+     
+#Retesting:
+* If developer gives the code fix for failed Test case (QA Member will raised it), QA  member has to check the code fix is working fine or not.
+
+#Retesting and #Regression:
+ 
+#Retesting        
+             
+* It starts before regression. 
+
+* It works Failed Test case    
+
+* It prefers Manual Testing    
+
+* It is priority to regression 
+
+   #Regression
+
+  * It starts after retesting
+
+  * It works on mutiple Passed Test cases.
+
+  * It prefers Automation.
+
+  * It depends on Resources availability.
+
+#EndToEndTesting / #ChainTesting: 
+
+* Testing all applications which are involved in the product.
+
+* It involves backend and front end applications also.
+
+* It start checking from Start to finish point.
+
+#SystemTesting                         
+
+* It focus on system behaviuor         
+* It starts before E2E                 
+* It considers Manual And Automation   
+
+#EndToEndTesting
+ * It focuses on both backend and front end applications 
+ * It starts after Start
+  * It prefers Manual Testing
+  * It goes for Integration levels

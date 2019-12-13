@@ -1,0 +1,89 @@
+Day3:
+
+ Test Process in Software Testing
+
+* It is a process rather than a single activity.
+* Quality and effectivess of an application is depends Test process followed.
+
+     Phases:
+  
+  % Planning and Control
+     - Objectives and scope of testing (Planning)
+  - Deviatiosn in the planning will do controlling
+  
+  % Analysis and Design
+     - Review and analiyze user documents (Analysis)
+  - Preparation Test design actives (Test Scenarios and Test cases writing)
+  
+  % Implementation and Execution
+     - Test data prepartion and Migartion of Dev code to QA Environment.
+  - Test the application by comparing Actual results (Application) with Expected results (Test cases).
+  
+  % Evaluting Exit criteria and Reporting
+        - Will check the exit criteria reports for all the phases.
+
+
+                                  Entry Criteia                                       Exit Criteria
+
+                                    User Ideas      Test Requriments               Test requirement Document
+        Test requirement Document Test planning                  Test plan document
+        Test plan document    Test Designing                 Test scenarios and Test Cases prepared
+    Test scenarios and Test Cases prepared Test Execution                 Test Execution reports    
+        Test Execution reports    Test closure activities        Test reports
+  
+  % Test Closure Activities
+     - Generate the reports to show how test process has been done.
+  
+  
+  
+  
+
+
+
+ STLC (Software Testing Life Cyle)
+
+It deals with Test related activities.. 
+
+- Phases in STLC:
+         ^ Test Requirements
+      -Here it contains user expectations.
+   -If QA Team has any questions, this will be answered by BA (Business Analyst)
+   - Differnet comapries will call requiremts as: 
+                  (Used in Non Agile)- BRD (Business Requirement Document)
+         (Used in Non Agile)- SRS (System Requirement Specification)
+         (Used in Non Agile)- FRD (Functional Requirement Document)
+         (Used in Non Agile)- User Manual
+         (Used in Non Agile)- Use Cases
+         (Used in Non Agile)- Excel sheets (Smmaler orgazitions will use this)
+                          User stories (Only in Agile)
+  
+   
+   ^ Test planning
+     - Here estimatiosn of the project will be discuseed.
+     - Necessary information, scope, objectives, risks, team role and resposibilites.
+     
+   ^ Test Designing
+     - Wil write Test scenariosn and Test cases (Preparation)
+     - Test data is also considered.
+     
+   ^ Test Execution
+     - Exectuign the application by comparing Actual Results with Expected results.
+     - If any deviation from Actual results for Expected results, then the Test cases shoud be "FAIL", this information will be send to Dev team.
+     - Else if Expected result is equal to Actual Result, then the correspoding Test cases should be "PASSED".
+     
+   ^ Test Closure Activities.
+   
+     - Here QA Team will generate Test reports to show how test process has been implemented.
+     - Other names of Test reports are:
+                  $ Test Summary Reports.
+      $ Test closure reports.
+      $ Test Status reports.
+      $ Test Post Mortem Reports.
+      
+&&&&&&&&&&*********&&&&&&&&&&&&&&&&&******************
+
+WHEN TO STOP TESTING?
+
+@ When product meets user expectations
+@ Any new update is as per user needs.
+@ When project got cancelled.
